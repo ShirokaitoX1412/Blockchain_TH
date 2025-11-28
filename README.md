@@ -17,7 +17,7 @@ Chương trình được viết bằng **Java**.
 ```bash 
    java Bai1.java 
 ```
-Kết quả
+***Kết quả***
  <img width="387" height="241" alt="{D7E455E2-3E8A-4E3C-B632-13ACF2125B87}" src="https://github.com/user-attachments/assets/4b4797f9-dc32-4ad9-9e28-e86783651261" />
 
 ### Bài 2: Tính hàm băm SHA-256 của file
@@ -27,7 +27,7 @@ Kết quả
 ```bash 
    java Bai2.java AI.pdf 
 ```
-Kết quả
+***Kết quả***
 <img width="475" height="70" alt="{9DC9DC2A-95FE-4C05-BCED-07ED00E3B87F}" src="https://github.com/user-attachments/assets/801aa1cf-46d9-448e-803e-b6dcb8ee1089" />
 
 ### Bài 3. Tính hàm băm SHA-256 của nhiều file
@@ -37,7 +37,7 @@ Kết quả
 ```bash 
    java Bai3.java  
 ```
-Kết quả
+***Kết quả***
 <img width="547" height="131" alt="{8720DA23-C9BE-404A-B2D2-9914B9D3AA24}" src="https://github.com/user-attachments/assets/6f0a26b3-aac8-4b9b-8206-db52d7c5d448" />
 
 ### Bài 4. Xây dựng merkle root cho danh sách giao dịch
@@ -47,17 +47,17 @@ Kết quả
 ```bash 
    java Bai4.java  
 ```
-Kết quả
+***Kết quả***
 <img width="582" height="136" alt="{78CEFDFA-CD95-4346-B2B8-502317188423}" src="https://github.com/user-attachments/assets/16da94ce-9027-4e6a-911c-340c672400b1" />
 
-### Bài 4. Xác thực SPV
+### Bài 5. Xác thực SPV
 <img width="952" height="85" alt="{9F2240A0-2BBF-42F7-ABB8-3CE1D0F4FDBF}" src="https://github.com/user-attachments/assets/ef5a2c09-4a27-4334-afc0-99409c9efeca" />
 **Cách chạy:**
 
 ```bash 
    java Bai5.java  
 ```
-Kết quả
+***Kết quả***
 <img width="582" height="280" alt="{2031D5C6-E3C4-4CE3-AE91-BC057A32EDE6}" src="https://github.com/user-attachments/assets/e50fbb74-c1b2-428d-8fee-54945079958f" />
 
 
