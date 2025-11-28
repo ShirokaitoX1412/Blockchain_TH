@@ -23,6 +23,7 @@ Chương trình được viết bằng **Java**.
 
 ### Bài 2: Tính hàm băm SHA-256 của file
 <img width="736" height="241" alt="{12D2BA61-1944-47CE-8947-AD56D4C13DC6}" src="https://github.com/user-attachments/assets/69fc5231-e61e-48d4-9563-0bcd4b29ce7a" />
+
 **Cách chạy:**
 
 ```bash 
@@ -34,6 +35,7 @@ Chương trình được viết bằng **Java**.
 
 ### Bài 3. Tính hàm băm SHA-256 của nhiều file
 <img width="954" height="102" alt="{80FFFE45-C190-4E9E-A0F0-9760F5F7D9FF}" src="https://github.com/user-attachments/assets/2d458f9b-193f-437a-887e-faacbce1a06d" />
+
 **Cách chạy:**
 
 ```bash 
@@ -45,6 +47,7 @@ Chương trình được viết bằng **Java**.
 
 ### Bài 4. Xây dựng merkle root cho danh sách giao dịch
 <img width="1000" height="671" alt="{B06D0640-48B5-4737-89A3-FB19C844A40E}" src="https://github.com/user-attachments/assets/20e735a3-d2d4-47f2-887e-cf49455a5918" />
+
 **Cách chạy:**
 
 ```bash 
@@ -56,6 +59,7 @@ Chương trình được viết bằng **Java**.
 
 ### Bài 5. Xác thực SPV
 <img width="952" height="85" alt="{9F2240A0-2BBF-42F7-ABB8-3CE1D0F4FDBF}" src="https://github.com/user-attachments/assets/ef5a2c09-4a27-4334-afc0-99409c9efeca" />
+
 **Cách chạy:**
 
 ```bash 
