@@ -1,11 +1,9 @@
-Blockchain Practice 1
+# BTTH 1
 
 Bộ bài tập này nhằm mục đích thực hành các kiến thức cơ bản về mã hóa , Hàm băm , Merkle Tree, và SPV 
 Chương trình được viết bằng **Java**.
 
 ---
-
-
 
 ### Chuẩn bị môi trường
 Đảm bảo cài đặt **Java Development Kit (JDK)** 
