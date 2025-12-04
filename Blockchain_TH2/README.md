@@ -1,6 +1,6 @@
 # BTTH 1
 
-Bộ bài tập này nhằm mục đích thực hành các kiến thức cơ bản về mã hóa , Hàm băm , Merkle Tree, và SPV 
+Bộ bài tập này nhằm mục đích thực hành các kiến thức cơ bản về Cấu trúc Block, Mô hình UTXO, Ưu tiên Giao dịch (Phí), Proof-of-Work (PoW), và Bitcoin Script đơn giản. 
 Chương trình được viết bằng **Java**.
 
 ---
@@ -9,65 +9,79 @@ Chương trình được viết bằng **Java**.
 Đảm bảo cài đặt **Java Development Kit (JDK)** 
 
 
-### Bài 1: Mã hóa đối xứng đơn giản (XOR Cipher)
-<img width="979" height="295" alt="{06B60314-D91F-4C34-B0A2-569264D4122B}" src="https://github.com/user-attachments/assets/5c1935db-4b13-4132-965f-d3172b837cae" />
+### Bài 1: Chuỗi Block Đơn giản
+<img width="790" height="469" alt="{87C3B1AC-F124-413C-BEA9-1220BFBCBD5F}" src="https://github.com/user-attachments/assets/505124a2-d1cf-40e1-97f4-cf7e63768c76" />
 
 **Cách chạy:**
 
-```bash 
+```bash
+   cd Blockchain_TH2 
    java Bai1.java 
 ```
 ***Kết quả***
 
- <img width="387" height="241" alt="{D7E455E2-3E8A-4E3C-B632-13ACF2125B87}" src="https://github.com/user-attachments/assets/4b4797f9-dc32-4ad9-9e28-e86783651261" />
+<img width="469" height="60" alt="{A95703C1-FA4D-4982-8C20-4D41212C571D}" src="https://github.com/user-attachments/assets/9c3d61f7-ab97-4ec6-ac57-f0059a87786c" />
 
-### Bài 2: Tính hàm băm SHA-256 của file
-<img width="736" height="241" alt="{12D2BA61-1944-47CE-8947-AD56D4C13DC6}" src="https://github.com/user-attachments/assets/69fc5231-e61e-48d4-9563-0bcd4b29ce7a" />
+
+### Bài 2: Tính số dư dựa trên mô hình UTXO đơn giản
+<img width="844" height="696" alt="{FA6D7117-E73E-4E9A-A674-BD9B615E94B7}" src="https://github.com/user-attachments/assets/c04e29f7-368e-42be-a03b-2a66b66e029a" />
+
 
 **Cách chạy:**
 
-```bash 
-   java Bai2.java AI.pdf 
+```bash
+   cd Blockchain_TH2
+   cd Bai2
+   java Bai2.java trans.txt 
 ```
 ***Kết quả***
 
-<img width="475" height="70" alt="{9DC9DC2A-95FE-4C05-BCED-07ED00E3B87F}" src="https://github.com/user-attachments/assets/801aa1cf-46d9-448e-803e-b6dcb8ee1089" />
+<img width="534" height="113" alt="{D94BC0A2-618B-415E-828E-91E95ECF7231}" src="https://github.com/user-attachments/assets/7639c6bc-7f94-4b71-bde8-6122825a4335" />
 
-### Bài 3. Tính hàm băm SHA-256 của nhiều file
-<img width="954" height="102" alt="{80FFFE45-C190-4E9E-A0F0-9760F5F7D9FF}" src="https://github.com/user-attachments/assets/2d458f9b-193f-437a-887e-faacbce1a06d" />
+
+### Bài 3. Sắp xếp giao dịch theo phí
+<img width="895" height="568" alt="{A0DB8441-2D0D-4D28-929C-D46CB6303F43}" src="https://github.com/user-attachments/assets/6702008e-6de4-4ae2-abe0-e38c32e13007" />
+
 
 **Cách chạy:**
-
-```bash 
-   java Bai3.java  
+   
+```bash
+   cd Blockchain_TH2
+   cd Bai3
+   java Bai3.java  trans_fee.txt
 ```
 ***Kết quả***
 
-<img width="547" height="131" alt="{8720DA23-C9BE-404A-B2D2-9914B9D3AA24}" src="https://github.com/user-attachments/assets/6f0a26b3-aac8-4b9b-8206-db52d7c5d448" />
+<img width="284" height="143" alt="{BC690753-8735-45A4-902E-A0EF068BBB87}" src="https://github.com/user-attachments/assets/9cbd1003-0540-4b9b-8712-47d3640155d5" />
 
-### Bài 4. Xây dựng merkle root cho danh sách giao dịch
-<img width="1000" height="671" alt="{B06D0640-48B5-4737-89A3-FB19C844A40E}" src="https://github.com/user-attachments/assets/20e735a3-d2d4-47f2-887e-cf49455a5918" />
+
+### Bài 4. Proof-of-Work đơn giản bằng leading zeros
+<img width="816" height="733" alt="{2378A226-D9F9-4F3C-941B-13742DAA5687}" src="https://github.com/user-attachments/assets/01c25796-612f-475c-982e-58d6ab8b186d" />
 
 **Cách chạy:**
 
 ```bash 
-   java Bai4.java  
+   cd Blockchain_TH2 
+   java Bai4.java 
 ```
 ***Kết quả***
 
-<img width="582" height="136" alt="{78CEFDFA-CD95-4346-B2B8-502317188423}" src="https://github.com/user-attachments/assets/16da94ce-9027-4e6a-911c-340c672400b1" />
+<img width="735" height="100" alt="{D8CC3E33-263E-46E9-B56F-11DB8CCF702C}" src="https://github.com/user-attachments/assets/9b809eee-dad2-4877-a2da-4fc654c45149" />
 
-### Bài 5. Xác thực SPV
-<img width="952" height="85" alt="{9F2240A0-2BBF-42F7-ABB8-3CE1D0F4FDBF}" src="https://github.com/user-attachments/assets/ef5a2c09-4a27-4334-afc0-99409c9efeca" />
+
+### Bài 5.Xây dựng Bitcoin Script Engine 
+<img width="831" height="584" alt="{066F00F6-69F3-4F3D-9381-EB1A2410DCB4}" src="https://github.com/user-attachments/assets/97c345e5-c520-45e1-b6e5-49323221000a" />
+
 
 **Cách chạy:**
 
-```bash 
+```bash
+   cd Blockchain_TH2 
    java Bai5.java  
 ```
 ***Kết quả***
 
-<img width="582" height="280" alt="{2031D5C6-E3C4-4CE3-AE91-BC057A32EDE6}" src="https://github.com/user-attachments/assets/e50fbb74-c1b2-428d-8fee-54945079958f" />
+<img width="503" height="115" alt="{63506F0A-9844-4D0B-ABEA-B709D32AD6E6}" src="https://github.com/user-attachments/assets/39d9d44a-89d6-429d-a705-edfe8361c44e" />
 
 
 
