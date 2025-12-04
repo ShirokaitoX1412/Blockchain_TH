@@ -1,0 +1,4 @@
+COINBASE,Alice,10
+Alice,Bob,4
+Alice,Carol,3
+Bob,Dave,2
