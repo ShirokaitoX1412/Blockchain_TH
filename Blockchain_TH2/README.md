@@ -1,4 +1,4 @@
-# BTTH 1
+# BTTH 2
 
 Bộ bài tập này nhằm mục đích thực hành các kiến thức cơ bản về Cấu trúc Block, Mô hình UTXO, Ưu tiên Giao dịch (Phí), Proof-of-Work (PoW), và Bitcoin Script đơn giản. 
 Chương trình được viết bằng **Java**.
